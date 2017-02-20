@@ -1,5 +1,23 @@
 *** WooCommerce Smart Coupons Changelog ***
 
+2017.02.06 - version 3.2
+ * New: Show Store Credit & other coupons separately on Coupons tab under My Account page (WooCommerce 2.6+)
+ * New: Show total credit amount available to reedem on Coupons tab under My Account page (WooCommerce 2.6+)
+ * Update: Do not show Coupon Received section on My Account page (can be changed via option - show_coupon_received_on_my_account)
+ * Update: CSS tweaks for showing scroll bar on Cart & Checkout page for coupons
+ * Update: POT file
+
+2017.01.05 - version 3.1.9
+ * Fix: Coupons sent in email is not applying when clicked
+ * Fix: Coupon code applied via URL is not working sometimes
+ * Update: POT file
+
+2016.12.15 - version 3.1.8
+ * Fix: Store Credit restricted to products or product categories not calculating the total correctly
+ * Update: Email Subject line for store credit emails
+ * Update: Grammatical correction in Send Store Credit form on checkout page (when sending to multiple people)
+ * Update: POT file
+
 2016.09.27 - version 3.1.7
  * Fix: Store Credit not applying discount
 
