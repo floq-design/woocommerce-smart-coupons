@@ -3717,7 +3717,7 @@ if ( is_woocommerce_active() ) {
 	                            					if ( variation_id != '' && variation_id != undefined ) {
 	                            						if ( variation != '' && variation != undefined ) {
 		                            						jQuery('form.variations_form.cart').one( 'found_variation', function( event, variation ) {
-																if ( variation_id = variation.variation_id ) {
+																if ( variation_id == variation.variation_id ) {
 																	reload_gift_certificate_div( variation );
 																}
 															});
